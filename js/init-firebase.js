@@ -1,18 +1,3 @@
-// // TODO: Replace the following with your app's Firebase project configuration
-// var firebaseConfig = {
-//     apiKey: "AIzaSyAXCjxVtuf93UH8jpEdcBcyV7sH2U6_ckY",
-//     authDomain: "dripdetec.firebaseapp.com",
-//     databaseURL: "https://dripdetec.firebaseio.com",
-//     projectId: "dripdetec",
-//     storageBucket: "dripdetec.appspot.com",
-//     messagingSenderId: "58303797467",
-//     appId: "1:58303797467:web:1c29c3977d6949e51694fe",
-//     measurementId: "G-FDJEZKW6X0"
-//   };
-//   // Initialize Firebase
-//   firebase.initializeApp(firebaseConfig);
-//
-
 const preObject = document.getElementById('object');
 const db = firebase.database();
 // dbRefObject.on('value', snap => console.log(snap.val()));
@@ -53,6 +38,3 @@ submit.addEventListener("click", function(){
   });
 
 });
-// console.log(errorCode);
-//
-// });
